@@ -19,7 +19,7 @@ def save_results(filename, plays, start_time, duration, end_time, comparisons, s
 
 
 if __name__ == "__main__":
-    file = "TAREA_PROGRAMADA_1/pbp_2017.csv"
+    file = "pbp_2017.csv"
     lector = DataLector(file)
     plays = lector.process_plays()
 
